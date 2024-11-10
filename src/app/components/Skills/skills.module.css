@@ -1,0 +1,47 @@
+
+
+.shadow{
+    animation: visible 2.5s linear forwards;
+}
+.noshadow{
+    animation: hidden 1.5s linear forwards;
+}
+.shadow p{
+    animation: show 2.5s linear forwards;
+}
+.noshadow p{
+    animation: hide 1.5s linear forwards;
+
+}
+@keyframes visible{
+    from{
+        box-shadow: 0px 0px 0px 0px #64ffda;
+    }
+    to{
+        box-shadow: 0px 0px 20px 0px #64ffda;
+    }
+}
+@keyframes hidden{
+    from{
+        box-shadow: 0px 0px 20px 0px #64ffda;
+    }
+    to{
+        box-shadow: 0px 0px 0px 0px #64ffda;
+    }
+}
+@keyframes show{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes hide{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}

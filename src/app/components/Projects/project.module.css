@@ -1,0 +1,18 @@
+
+.card:hover .imagecard {
+    box-shadow: 6px 5px 17px 0 black;
+    animation: card 1s ease-in forwards;
+
+}
+
+@keyframes card {
+    to {
+        transform: translateX(-350px);
+    }
+}
+
+@keyframes card2 {
+    to {
+        transform: translateX(0px);
+    }
+}
