@@ -41,6 +41,7 @@
 } 
 .active{
   background-color: #03ecbe;
+  border-color: #fff !important;
 }
 .active:hover{
   color: #fff;

@@ -19,7 +19,7 @@ function Hero() {
             experiences on the web.</h3>
         </div>
         <div className="w-[150px] items-center justify-center flex flex-col gap-4 xl:w-[150px] xl:gap-4 xxl:w-[180px] xxl:gap-6">
-          <button className="text-white neon w-[150px] h-[50px] rounded-[22px] border-[#019975] border-[2px] cursor-pointer hover:bg-[#04a982] hover:border-white xxl:rounded-[26px] xxl:w-[180px] h-[60px]">
+          <button className="text-white neon w-[150px] h-[50px] rounded-[22px] border-[#019975] border-[2px] cursor-pointer hover:bg-[#04a982] hover:border-white xl:h-[55px] xxl:rounded-[26px] xxl:w-[180px] xxl:h-[60px]">
             <a href="#about"><h4 className="text-lg xl:text-xl xxl:text-2xl">More</h4></a>
           </button>
           <div className='flex w-[150px] items-center justify-center' >

@@ -46,21 +46,21 @@ function About() {
           </div>
           <div className={`'text-center hidden flex-col flex h-[100%] px-8 border-b-2 items-center ' ${count % 4 == 2 ? 'visible' : ''}`}>
 
-            <div className='flex items-center justify-center flex-col w-[70%] my-6'>
+            <div className='flex items-center justify-center flex-col w-[70%] my-2 xl:my-4 xxl:my-6'>
               <p className='text-white text-[1.4remm] euro my-2 leading-10 xl:leading-[2.8rem] xl:text-[1.6rem] xxl:text-[2.1rem] xxl:leading-[3.5rem]'>Graphic Designing</p>
 
               <div className="w-[100%] bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
                 <div className="bg-[#04ffc3] h-2.5 rounded-full w-[85%]"></div>
               </div>
             </div>
-            <div className='flex items-center justify-center flex-col w-[70%] my-6'>
+            <div className='flex items-center justify-center flex-col w-[70%] my-2 xl:my-4 xxl:my-6'>
               <p className='text-white text-[1.4remm] euro my-2 leading-10 xl:leading-[2.8rem] xl:text-[1.6rem] xxl:text-[2.1rem] xxl:leading-[3.5rem]'>Web Development</p>
 
               <div className="w-[100%] bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
                 <div className="bg-[#04ffc3] h-2.5 rounded-full w-[65%]"></div>
               </div>
             </div>
-            <div className='flex items-center justify-center flex-col w-[70%] my-6'>
+            <div className='flex items-center justify-center flex-col w-[70%] my-2 xl:my-4 xxl:my-6'>
               <p className='text-white text-[1.4remm] euro my-2 leading-10 xl:leading-[2.8rem] xl:text-[1.6rem] xxl:text-[2.1rem] xxl:leading-[3.5rem]'>UI/UX Designing</p>
 
               <div className="w-[100%] bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
