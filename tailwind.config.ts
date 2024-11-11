@@ -9,14 +9,16 @@ const config: Config = {
   theme: {
     extend: {
       screens:{
+        'l':'1280px',
         'xl':'1440px',
         'xx':'1660px',
-        'xxl':'1920px'
+        'xxl':'1920px',
       },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      
       
      
      

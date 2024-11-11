@@ -95,49 +95,49 @@ body {
 @layer base {
   @font-face {
     font-family: 'franklin';
-    src: url(/portfolio/public/FranklinGothic.ttf) format('ttf');
+    src: url(/my-app/public/fonts/FranklinGothic.ttf) format('ttf');
   }
   @font-face {
     font-family: 'euro';
-    src: url(/portfolio/public/eurostile.TTF) format('TTF');
+    src: url(/my-app/public/fonts/eurostile.TTF) format('TTF');
   }
   @font-face {
     font-family: 'dmsans';
-    src: url(/portfolio/public/DMSans-VariableFont_opsz\,wght.ttf) format('tff');
+    src: url(/my-app/public/fonts/DMSans-VariableFont_opsz\,wght.ttf) format('tff');
   }
   @font-face {
     font-family: 'Inter';
-    src: url(/portfolio/public/Inter-VariableFont_opsz\,wght.ttf);
+    src: url(/my-app/public/fonts/Inter-VariableFont_opsz\,wght.ttf);
   }
   @font-face {
     font-family: 'MonumentExtended-Regular';
-    src: url(/portfolio/public/MonumentExtended-Regular.otf);
+    src: url(/my-app/public/MonumentExtended-Regular.otf);
   }
 }
 
 @font-face {
   font-family: Franklin Gothic;
-  src: url(/portfolio/public/FranklinGothic.ttf);
+  src: url(/my-app/public/fonts/FranklinGothic.ttf);
 }
 @font-face {
   font-family: Eurostile;
-  src: url(/portfolio/public/eurostile.TTF);
+  src: url(/my-app/public/fonts/eurostile.TTF);
 }
 @font-face {
   font-family: 'DmSans';
-  src: url(/portfolio/public/DMSans-VariableFont_opsz\,wght.ttf);
+  src: url(/my-app/public/DMSans-VariableFont_opsz\,wght.ttf);
 }
 @font-face {
   font-family: 'Inter';
-  src: url(/portfolio/public/Inter-VariableFont_opsz\,wght.ttf) format(ttf);
+  src: url(/my-app/public/Inter-VariableFont_opsz\,wght.ttf) format(ttf);
 }
 @font-face {
   font-family: 'MonumentExtended-Regular';
-  src: url(/portfolio/public/MonumentExtended-Regular.otf) format(otf);
+  src: url(/my-app/public/MonumentExtended-Regular.otf) format(otf);
 }
 @font-face {
   font-family: 'Monument-ultra';
-  src: url(/portfolio/public/MonumentExtended-Ultrabold.otf);
+  src: url(/my-app/public/MonumentExtended-Ultrabold.otf);
 }
 @font-face{
   font-family:monument extended;
