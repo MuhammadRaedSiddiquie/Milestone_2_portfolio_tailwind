@@ -23,7 +23,7 @@ function About() {
         </div>
         <div className='w-[72%] h-[100%] text-white rounded-[8px] border-2 border-[#04ffce]  shadow-[0_0_0_500px] shadow-[#0b0b0b] overflow-scroll overflow-x-hidden'>
           <div className={`'text-center hidden flex-col flex h-[100%] px-8 border-b-2 items-start' ${count % 4 == 0 ? 'visible' : ''}`}>
-            <p className='text-white text-[1.3rem] font-[inter] my-2 leading-10'>Im Raed Siddiquie, a passionate rising Web Developer seeking to get an opportunity where I can make the
+            <p className='text-white text-[1.3rem] font-[inter] my-2 leading-10'>I&#39;m Raed Siddiquie, a passionate rising Web Developer seeking to get an opportunity where I can make the
               best of my potential and contribute to the organizations growth, while
               polishing my skills.I have strong base in Html, Css and Javascript and currently learning latest web technologies</p>
           </div>
